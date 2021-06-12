@@ -1,3 +1,3 @@
-# COMP133 Projects
+# COMP133 Assignments & Projects
   in C Language
 
