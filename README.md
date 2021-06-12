@@ -1,3 +1,3 @@
 # University
-  Repository For My University Projects
-  @Birzeit University 
+  - Repository For My University Projects
+  - @Birzeit University 
