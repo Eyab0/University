@@ -2,7 +2,7 @@
   - Repository For My University Projects
   - @Birzeit University 
 ## subjects :
-  * [COMP133 | C Programing](#COMP133)
-  * [COMP231 | JAVA](#COMP231) 
-  * [COMP2421 | Data Structure & Algorithms](#COMP2421) 
-  [test](https://github.com/Eyab0/University/tree/main/COMP133%20-%20C%20Programing)
+  * [COMP133 | C Programing](https://github.com/Eyab0/University/tree/main/COMP133%20-%20C%20Programing)
+  * [COMP231 | JAVA](https://github.com/Eyab0/University/tree/main/COMP231%20-%20JAVA) 
+  * [COMP2421 | Data Structure & Algorithms](https://github.com/Eyab0/University/tree/main/COMP2421%20-%20Data%20Structure%20%26%20Algorithms) 
+
