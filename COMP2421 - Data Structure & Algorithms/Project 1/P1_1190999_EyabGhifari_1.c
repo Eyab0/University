@@ -747,7 +747,7 @@ void displayAuthorInfo() {
     printf("\xDB\xDB\xDB\xDB\xDB\n");
     printf("\t\t\t\xDB                             \xDB\n");
     printf("\t\t\t\xDB           COMP2421          \xDB\n");
-    printf("\t\t\t\xDB           Project#2         \xDB\n");
+    printf("\t\t\t\xDB           Project#1         \xDB\n");
     printf("\t\t\t\xDB                             \xDB\n");
     printf("\t\t\t\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB");
     printf("\xDB\xDB\xDB\xDB\xDB\xDB\xDB");
