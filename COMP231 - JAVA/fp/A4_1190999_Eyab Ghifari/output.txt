@@ -1,0 +1,152 @@
+
+----------------------------------------
+      Car Info : 
+----------------------------------------
+model Name: Camley
+modleNo: E100
+brand: Toyota
+engine Type: Gasoline
+tank Size: 70.0
+fuel Consumption: 15.15 liter/kilo
+tank Size: 70.0
+fuel Consumption: 15.15
+cost For 100km: 66.01$
+owner name: Ahmad
+registrationNo: Unavailable
+address: Unavailable
+date Of Registration: 22-1-2021
+
+number Of Seats: 5
+is air Condition ON ?: false
+
+
+----------------------------------------
+      Car Info : 
+----------------------------------------
+model Name: Aqua
+modleNo: ES500
+brand: Toyota
+engine Type: Hybrid
+tank Size: 36.0
+fuel Consumption: 40.0 liter/kilo
+tank Size: 36.0
+fuel Consumption: 40.0
+cost For 100km: 25.00$
+owner name: Nader
+registrationNo: Unavailable
+address: Unavailable
+date Of Registration: 22-1-2021
+
+number Of Seats: 5
+is air Condition ON ?: false
+
+
+----------------------------------------
+      Minivan Info : 
+----------------------------------------
+model Name: Sienna
+modleNo: A4
+brand: Toyota
+engine Type: Gasoline
+tank Size: 75.0
+fuel Consumption: 9.0 liter/kilo
+tank Size: 75.0
+fuel Consumption: 9.0
+cost For 100km: 111.11$
+owner name: Malik
+registrationNo: Unavailable
+address: Unavailable
+date Of Registration: 22-1-2021
+
+number Of Seats: 8
+is air Condition ON ?: false
+is has Auto Doors ?: true
+
+
+----------------------------------------
+      Minivan Info : 
+----------------------------------------
+model Name: Odyssey
+modleNo: S500
+brand: Honda
+engine Type: Diesel
+tank Size: 56.0
+fuel Consumption: 11.0 liter/kilo
+tank Size: 56.0
+fuel Consumption: 11.0
+cost For 100km: 90.91$
+owner name: Khaled
+registrationNo: Unavailable
+address: Unavailable
+date Of Registration: 22-1-2021
+
+number Of Seats: 8
+is air Condition ON ?: false
+is has Auto Doors ?: false
+
+
+----------------------------------------
+      Minivan Info : 
+----------------------------------------
+model Name: Presage
+modleNo: BX5000
+brand: Nissan
+engine Type: Gasoline
+tank Size: 60.0
+fuel Consumption: 7.0 liter/kilo
+tank Size: 60.0
+fuel Consumption: 7.0
+cost For 100km: 142.86$
+owner name: Shaher
+registrationNo: Unavailable
+address: Unavailable
+date Of Registration: 22-1-2021
+
+number Of Seats: 7
+is air Condition ON ?: false
+is has Auto Doors ?: false
+
+
+----------------------------------------
+      Truck Info : 
+----------------------------------------
+model Name: Tundra
+modleNo: EDGE500
+brand: Toyota
+engine Type: Diesel
+tank Size: 100.0
+fuel Consumption: 6.76 liter/kilo
+tank Size: 100.0
+fuel Consumption: 6.76
+cost For 100km: 147.93$
+owner name: Sami
+registrationNo: Unavailable
+address: Unavailable
+date Of Registration: 22-1-2021
+
+number Of Seats: 5
+is air Condition ON ?: false
+power: 310
+
+
+----------------------------------------
+      Truck Info : 
+----------------------------------------
+model Name: Ridgeline
+modleNo: DUG700
+brand: Honda
+engine Type: Diesel
+tank Size: 83.279
+fuel Consumption: 7.23 liter/kilo
+tank Size: 83.279
+fuel Consumption: 7.23
+cost For 100km: 138.31$
+owner name: Waleed
+registrationNo: Unavailable
+address: Unavailable
+date Of Registration: 22-1-2021
+
+number Of Seats: 5
+is air Condition ON ?: false
+power: 250
+
