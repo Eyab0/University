@@ -69,7 +69,7 @@ void DisposeGraph(Graph **); //Free memory associated With Graph 2D Array
 /***************************************************************************
  *                              Note:                                      *
  *                                                                         *
- * i don't use priority queue (heaps) because there is no enough time.     *
+ * i didn't use priority queue (heaps) because there is no enough time.     *
  * so instead of that i use loop to get the min distance not visited yet.  *
  * and implementing graph using matrix method.                             *
  * and my implementing of Dijkstra is greedy Algorithm                     *
