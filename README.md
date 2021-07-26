@@ -1,6 +1,6 @@
 # University
   - Repository For My University Projects
-  - @Birzeit University 
+  - @Birzeit University  
 ## subjects :
   * [COMP133 | C Programing](https://github.com/Eyab0/University/tree/main/COMP133%20-%20C%20Programing)
   * [COMP231 | JAVA OOP](https://github.com/Eyab0/University/tree/main/COMP231%20-%20JAVA) 
