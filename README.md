@@ -1,5 +1,5 @@
-# University
-  - Repository For My University Projects
+# University Archive
+  - Repository For My University Projects & Assignments 
   - @Birzeit University  
 ## subjects :
   * [COMP133 | C Programing](https://github.com/Eyab0/University/tree/main/COMP133%20-%20C%20Programing)
