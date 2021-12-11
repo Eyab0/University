@@ -1,3 +1,7 @@
+<h1 align="center">Data Structure & Algorithms (COMP2421)</h1>
+
+***
+
 # Course Description
 Data type and structures, abstract data types and encapsulation, recursion, proof of correctness of algorithms. Complexity of algorithms (BigO). Linked lists, stacks, queues, trees, binary trees; heap, hashing, sorting and searching, graphs, traversing, shortest path, and file organization. Engineering related applications. Graph theory, dynamic programming.
 
