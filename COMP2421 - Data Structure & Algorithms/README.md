@@ -11,7 +11,7 @@ Data type and structures, abstract data types and encapsulation, recursion, proo
   * Project 2 : Stack Of Strings
   * Project 3 : AVL Tree & Hash Table
   * Project 4 :  Sorting Algorithms   Research Paper (not for publication) 
-  * Final Project : Graph Dijkstra’s algorithm (shortest paths)
+  * Final Project : Graph Dijkstra's shortest path algorithm
 
 
 ## My Score 😎 
