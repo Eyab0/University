@@ -7,11 +7,11 @@ Data type and structures, abstract data types and encapsulation, recursion, proo
 
 # COMP2421 Projects
   in C Language
-  * Project 1 : Polynomial ADT using Linked Lists
-  * Project 2 : Stack Of Strings
-  * Project 3 : AVL Tree & Hash Table
-  * Project 4 :  Sorting Algorithms   Research Paper (not for publication) 
-  * Final Project : Graph Dijkstra's shortest path algorithm
+  * Project 1 : Polynomial ADT using Linked Lists (31/30)
+  * Project 2 : Stack Of Strings (30/30)
+  * Project 3 : AVL Tree & Hash Table (60/60)
+  * Project 4 :  Sorting Algorithms Research Paper (not for publication) 
+  * Final Project : Graph Dijkstra's shortest path algorithm (25/25)
 
 
 ## My Score 😎 
