@@ -7,7 +7,7 @@ Object-oriented analysis, design, programming, and applications. The theory behi
 
 # COMP231 Assignments & Projects
   in Java Language
-  * Assignment 1 : Nice Number Program
-  * Assignment 2 : Palestinian Car Agency
-  * Assignment 3 : Palestinian Dairy Factory
-  * Final Project : Palestinian vehicle Agency
+  * Assignment 1 : Nice Number Program (29/30)
+  * Assignment 2 : Palestinian Car Agency (50/50)
+  * Assignment 3 : Palestinian Dairy Factory (99/100)
+  * Final Project : Palestinian vehicle Agency (104/100)
