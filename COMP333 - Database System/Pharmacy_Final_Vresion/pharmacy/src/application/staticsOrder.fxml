@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="918.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.staticsProfitsController">
+   <center>
+      <AnchorPane prefHeight="472.0" prefWidth="918.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="numOrders" alignment="CENTER" layoutX="188.0" layoutY="123.0" prefHeight="46.0" prefWidth="162.0" style="-fx-border-radius: 50; -fx-border-color: blue;" text="Total Orders" />
+            <ImageView fitHeight="43.0" fitWidth="49.0" layoutX="104.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons8-how-many-quest-50.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="91.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TotoalOrders" />
+            <Label fx:id="netIncome" alignment="CENTER" layoutX="188.0" layoutY="220.0" prefHeight="46.0" prefWidth="162.0" style="-fx-border-radius: 50; -fx-border-color: blue;" text="net Income" />
+            <Label fx:id="Profits" alignment="CENTER" layoutX="188.0" layoutY="308.0" prefHeight="46.0" prefWidth="162.0" style="-fx-border-radius: 50; -fx-border-color: blue;" text="Profits $" />
+            <ImageView fitHeight="61.0" fitWidth="58.0" layoutX="97.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../salary.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="95.0" fitWidth="59.0" layoutX="96.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../money.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="95.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="net Income" />
+            <Text layoutX="106.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profits" wrappingWidth="40.94415283203125" />
+            <ImageView fitHeight="63.0" fitWidth="68.0" layoutX="410.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../financial-profit.png" />
+               </image>
+            </ImageView>
+            <PieChart fx:id="paymentMethods" layoutX="459.0" layoutY="117.0" prefHeight="350.0" prefWidth="439.0" title="Payment Methods PieChart" />
+            <Separator layoutX="441.0" layoutY="112.0" orientation="VERTICAL" prefHeight="325.0" prefWidth="22.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="496.0" prefWidth="945.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #67FFC7;" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="tableData" layoutX="-1.0" layoutY="104.0" prefHeight="256.0" prefWidth="695.0">
+              <columns>
+                <TableColumn fx:id="pid" prefWidth="62.40002518892288" text="PID" />
+                  <TableColumn fx:id="Arrival" prefWidth="75.20000839233398" text="Arrival" />
+                <TableColumn fx:id="BurstTime" prefWidth="90.4000244140625" text="Burst Time" />
+                  <TableColumn fx:id="NOpages" prefWidth="68.79997253417969" text="# Pages" />
+                  <TableColumn fx:id="start" prefWidth="90.4000244140625" text="Start" />
+                  <TableColumn fx:id="finish" prefWidth="83.20001220703125" text="Finish" />
+                  <TableColumn fx:id="ta" prefWidth="72.80001831054688" text="TA" />
+                  <TableColumn fx:id="wt" prefWidth="54.39996337890625" text="WT" />
+                  <TableColumn fx:id="numofFal" prefWidth="114.40008544921875" text="# Faults" />
+              </columns>
+            </TableView>
+            <Label layoutX="-1.0" layoutY="60.0" prefHeight="44.0" prefWidth="694.0" style="-fx-background-color: #6474FF;" text="                                            Process Details ">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Button fx:id="GFile" layoutX="65.0" layoutY="446.0" mnemonicParsing="false" onAction="#GFilebtn" prefHeight="28.0" prefWidth="106.0" style="-fx-background-color: WHITE; -fx-background-radius: 25;" text="Gererat File">
+               <font>
+                  <Font name="Bell MT Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="openFile" layoutX="181.0" layoutY="446.0" mnemonicParsing="false" onAction="#openFilebtn" prefHeight="28.0" prefWidth="106.0" style="-fx-background-color: WHITE; -fx-background-radius: 25;" text="Open File">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="exit" layoutX="393.0" layoutY="463.0" mnemonicParsing="false" onAction="#exitbtn" style="-fx-background-color: #FF0000;" text="  Exit  " textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Button>
+            <ComboBox fx:id="compoBox" layoutX="106.0" layoutY="408.0" prefWidth="150.0" promptText="choose algorithm" style="-fx-background-color: WhITE;" />
+            <Label layoutX="92.0" layoutY="368.0" prefHeight="34.0" prefWidth="97.0" style="-fx-background-color: White; -fx-background-radius: 5;" text=" Time Quant :">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="timeQuant" layoutX="204.0" layoutY="368.0" prefHeight="34.0" prefWidth="60.0" style="-fx-background-color: WHITE;" />
+            <Label layoutX="695.0" layoutY="60.0" prefHeight="44.0" prefWidth="257.0" style="-fx-background-color: #FFFD92;" text="            Memory View">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="memo" layoutX="694.0" layoutY="104.0" prefHeight="256.0" prefWidth="260.0" />
+            <Line endX="-19.0" endY="256.0" layoutX="713.0" layoutY="104.0" startX="-18.0" startY="-43.999996185302734" />
+            <Label layoutX="718.0" layoutY="374.0" style="-fx-background-color: White; -fx-background-radius: 10;" text="Total Cycles : ">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="totalC" layoutX="833.0" layoutY="372.0" prefHeight="26.0" prefWidth="88.0" />
+            <Label layoutX="692.0" layoutY="410.0" prefHeight="22.0" prefWidth="131.0" style="-fx-background-color: White; -fx-background-radius: 10;" text="Total Page Fault : ">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="totalP" layoutX="833.0" layoutY="407.0" prefHeight="26.0" prefWidth="88.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="3.0" prefHeight="58.0" prefWidth="954.0" style="-fx-background-color: #67FFC7;" text="   Virtual Memory Management Simulation " textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="34.0" />
+               </font>
+            </Label>
+            <Button fx:id="reset1" layoutX="522.0" layoutY="463.0" mnemonicParsing="false" onAction="#resetbtn" style="-fx-background-color: #22AA00;" text="Restart" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="89.0" fitWidth="129.0" layoutX="433.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../computer-memory.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="643.0" prefWidth="933.0" style="-fx-background-color: #63C5DA;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.categoresController">
+   <bottom>
+		<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="661.0" prefWidth="933.0" styleClass="pic2" stylesheets="@application.css" BorderPane.alignment="CENTER">
+			<children>
+				<TableView fx:id="TableData" layoutX="150.0" layoutY="59.0" prefHeight="296.0" prefWidth="653.0">
+					<columns>
+						<TableColumn fx:id="id" prefWidth="194.0" text="Category ID" />
+						<TableColumn fx:id="name" prefWidth="226.0" text="Name" />
+						<TableColumn fx:id="numberOfItem" prefWidth="232.0" text="Number Of Item" />
+					</columns>
+					<opaqueInsets>
+						<Insets />
+					</opaqueInsets>
+				</TableView>
+				<AnchorPane layoutX="175.0" layoutY="22.0" />
+				<Button fx:id="Update" layoutX="622.0" layoutY="417.0" mnemonicParsing="false" onAction="#updateOnAction" prefHeight="23.0" prefWidth="100.0" styleClass="dark-blue" stylesheets="@application.css" text="Update">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../refreshLOGO.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+				<Label layoutX="231.0" layoutY="367.0" prefHeight="33.0" prefWidth="197.0" text="Update Category: ">
+					<font>
+						<Font name="Arial Bold" size="18.0" />
+					</font>
+               <graphic>
+                  <ImageView fitHeight="33.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icon-for-update.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+				</Label>
+				<TextField fx:id="oldID" layoutX="431.0" layoutY="368.0" prefHeight="31.0" prefWidth="163.0" promptText="Category ID" stylesheets="@application.css" />
+				<TextField fx:id="newID" layoutX="208.0" layoutY="419.0" prefHeight="31.0" prefWidth="102.0" promptText="New ID" stylesheets="@application.css" />
+				<TextField fx:id="newName" layoutX="324.0" layoutY="419.0" prefHeight="31.0" prefWidth="125.0" promptText="New Name" stylesheets="@application.css" />
+				<TextField fx:id="newNumber" layoutX="467.0" layoutY="418.0" prefHeight="31.0" prefWidth="129.0" promptText="New Number" stylesheets="@application.css" />
+					<TextField fx:id="SearchFiled" layoutX="690.0" layoutY="17.0" prefHeight="36.0" prefWidth="233.0" promptText="Search by id or Category name" style="-fx-text-fill: Black; -fx-border-color: blue; -fx-border-radius: 20; -fx-background-radius: 20;">
+               <font>
+                  <Font size="13.0" />
+               </font></TextField>
+				<TextField fx:id="CategoryID" layoutX="290.0" layoutY="513.0" prefHeight="31.0" prefWidth="134.0" promptText="Category ID" stylesheets="@application.css" />
+            <ImageView fitHeight="29.0" fitWidth="37.0" layoutX="880.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../searchLOGO.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="Delete2" contentDisplay="RIGHT" layoutX="559.0" layoutY="507.0" mnemonicParsing="false" onAction="#deleteOnAction2" prefHeight="21.0" prefWidth="226.0" styleClass="button2" stylesheets="@application.css" text="Delete selected Row  ">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../delete.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+				<Button fx:id="Delete" layoutX="443.0" layoutY="511.0" mnemonicParsing="false" onAction="#deleteOnAction" prefHeight="7.0" prefWidth="98.0" styleClass="dark-blue" stylesheets="@application.css" text="Delete">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../delete.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+				<Line endX="755.0" layoutX="181.0" layoutY="490.0" startX="-174.99998474121094" />
+				<Label layoutX="91.0" layoutY="508.0" prefHeight="41.0" prefWidth="196.0" text="Delete Category:">
+					<font>
+						<Font name="Arial Bold" size="18.0" />
+					</font>
+               <graphic>
+                  <ImageView fitHeight="41.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons8-cancel-48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+				</Label>
+				<Line endX="750.0" layoutX="186.0" layoutY="568.0" startX="-185.99998474121094" />
+				<Button fx:id="add" layoutX="416.0" layoutY="579.0" mnemonicParsing="false" onAction="#addOnAction" prefHeight="25.0" prefWidth="152.0" styleClass="dark-blue" stylesheets="@application.css" text="Add Category">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../CatIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+				<Label layoutX="2.0" layoutY="384.0" prefHeight="44.0" prefWidth="217.0" text="(Enter Any Field To Update)">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Label>
+            <Button fx:id="btnback" layoutX="14.0" layoutY="13.0" mnemonicParsing="false" onAction="#back" prefHeight="49.0" prefWidth="96.0" styleClass="button2" stylesheets="@application.css" text="Back">
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons8-back-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button layoutX="153.0" layoutY="20.0" mnemonicParsing="false" onAction="#btnRefresh" prefHeight="14.0" prefWidth="33.0" styleClass="button_small" stylesheets="@application.css">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../refreshLOGO.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="statistic" layoutX="425.0" layoutY="3.0" mnemonicParsing="false" onAction="#btnStatistics" prefHeight="38.0" prefWidth="103.0" style="-fx-background-radius: 20;" styleClass="record-sales" stylesheets="@application.css" text="Statistics" />
+
+			</children>
+		</AnchorPane>
+   </bottom>
+</BorderPane>

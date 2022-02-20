@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="263.0" prefWidth="584.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddProv_CompanyController">
+   <children>
+      <AnchorPane layoutY="-7.0" prefHeight="275.0" prefWidth="584.0" style="-fx-background-color: #000080;">
+         <children>
+            <TextField fx:id="addPhone" layoutX="232.0" layoutY="110.0" prefHeight="31.0" prefWidth="202.0" promptText="phone" />
+            <Label layoutX="46.0" layoutY="68.0" text="Company Name:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="45.0" layoutY="110.0" text="Company Phone:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="152.0" prefHeight="31.0" prefWidth="189.0" text="Company Address:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnCancel" layoutX="133.0" layoutY="209.0" mnemonicParsing="false" onAction="#CancelOnAction" prefHeight="43.0" prefWidth="100.0" styleClass="button_small" stylesheets="@application.css" text="Cancel">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons8-cancel-48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="add" layoutX="332.0" layoutY="209.0" mnemonicParsing="false" onAction="#addOnAction" prefHeight="43.0" prefWidth="100.0" styleClass="button_small" stylesheets="@application.css" text="Add">
+               <graphic>
+                  <ImageView fitHeight="37.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../logoAdd.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label layoutX="83.0" layoutY="14.0" prefHeight="37.0" prefWidth="299.0" text="Add provide Company" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="22.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../addProv.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+            <TextField fx:id="addName" layoutX="232.0" layoutY="68.0" prefHeight="31.0" prefWidth="202.0" promptText="Name" stylesheets="@application.css" />
+            <TextField fx:id="addAddress" layoutX="233.0" layoutY="152.0" prefHeight="31.0" prefWidth="342.0" promptText="address" stylesheets="@application.css" />
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

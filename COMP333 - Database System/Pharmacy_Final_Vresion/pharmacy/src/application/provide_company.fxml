@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="726.0" prefWidth="933.0" style="-fx-background-color: #63C5DA;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.provide_companyController">
+   <bottom>
+		<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="933.0" styleClass="pic3" stylesheets="@application.css" BorderPane.alignment="CENTER">
+			<children>
+				<TableView fx:id="TableData" layoutX="66.0" layoutY="63.0" prefHeight="296.0" prefWidth="780.0">
+					<columns>
+						<TableColumn fx:id="name" prefWidth="226.0" text="company_name" />
+						<TableColumn fx:id="phone" prefWidth="183.0" text="phone" />
+						<TableColumn fx:id="address" prefWidth="369.0" text="address" />
+					</columns>
+					<opaqueInsets>
+						<Insets />
+					</opaqueInsets>
+				</TableView>
+				<AnchorPane layoutX="175.0" layoutY="22.0" />
+      				<Button fx:id="Update" layoutX="812.0" layoutY="415.0" mnemonicParsing="false" onAction="#updateOnAction" prefHeight="23.0" prefWidth="107.0" styleClass="dark-blue" stylesheets="@application.css" text="Update">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../updateLOGO.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+				<Label layoutX="159.0" layoutY="366.0" prefHeight="35.0" prefWidth="277.0" text="Update provide Company: ">
+					<font>
+						<Font name="Arial Bold" size="18.0" />
+					</font>
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icon-for-update.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+				</Label>
+				<TextField fx:id="oldName" layoutX="431.0" layoutY="368.0" prefHeight="31.0" prefWidth="163.0" promptText="company_name" stylesheets="@application.css" />
+				<TextField fx:id="newName" layoutX="236.0" layoutY="419.0" prefHeight="31.0" prefWidth="102.0" promptText="New Name" stylesheets="@application.css" />
+				<TextField fx:id="newPhone" layoutX="342.0" layoutY="419.0" prefHeight="31.0" prefWidth="125.0" promptText="New phone" />
+				<TextField fx:id="newAddress" layoutX="471.0" layoutY="419.0" prefHeight="31.0" prefWidth="331.0" promptText="New address" />
+				<TextField fx:id="SearchFiled" layoutX="791.0" layoutY="17.0" prefHeight="34.0" prefWidth="120.0" promptText="Search" style="-fx-text-fill: Black; -fx-border-color: blue; -fx-border-radius: 20; -fx-background-radius: 20;">
+               <font>
+                  <Font size="13.0" />
+               </font></TextField>
+				<TextField fx:id="CategoryID" layoutX="290.0" layoutY="513.0" prefHeight="31.0" prefWidth="134.0" promptText="Category ID" styleClass="text1" stylesheets="@application.css" />
+            <ImageView fitHeight="29.0" fitWidth="37.0" layoutX="866.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../searchLOGO.png" />
+               </image>
+            </ImageView>
+				<TextField fx:id="nameCompany" layoutX="290.0" layoutY="513.0" prefHeight="31.0" prefWidth="134.0" promptText="company_name" stylesheets="@application.css" />
+				<Button fx:id="Delete2" contentDisplay="RIGHT" layoutX="585.0" layoutY="505.0" mnemonicParsing="false" onAction="#deleteOnAction2" prefHeight="47.0" prefWidth="224.0" styleClass="button2" stylesheets="@application.css" text="Delete selected Row  ">
+               <graphic>
+                  <ImageView fitHeight="33.0" fitWidth="112.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../delete.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+				<Button fx:id="Delete" layoutX="454.0" layoutY="511.0" mnemonicParsing="false" onAction="#deleteOnAction" prefHeight="17.0" prefWidth="99.0" styleClass="dark-blue" stylesheets="@application.css" text="Delete">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../delete.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+				<Line endX="755.0" layoutX="181.0" layoutY="490.0" startX="-174.99998474121094" stroke="#777272" />
+				<Label layoutX="6.0" layoutY="500.0" prefHeight="44.0" prefWidth="277.0" text="Delete provide Company:">
+					<font>
+						<Font name="Arial Bold" size="18.0" />
+					</font>
+               <graphic>
+                  <ImageView fitHeight="55.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons8-cancel-48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+				</Label>
+				<Line endX="750.0" layoutX="186.0" layoutY="568.0" startX="-185.99998474121094" stroke="#959595" />
+				<Button fx:id="add" layoutX="358.0" layoutY="580.0" mnemonicParsing="false" onAction="#addOnAction" prefHeight="40.0" prefWidth="221.0" styleClass="dark-blue" stylesheets="@application.css" text="Add provide Company">
+               <graphic>
+                  <ImageView fitHeight="33.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../addProv.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+				<Label layoutX="6.0" layoutY="424.0" text="(Enter Any Field To Update)">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font></Label>
+            <Button fx:id="btnback" layoutX="6.0" layoutY="3.0" mnemonicParsing="false" onAction="#back" prefHeight="33.0" prefWidth="91.0" styleClass="button2" stylesheets="@application.css" text="Back">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons8-back-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button layoutX="14.0" layoutY="63.0" mnemonicParsing="false" onAction="#btnRefresh" prefHeight="26.0" prefWidth="24.0" styleClass="button_small" stylesheets="@application.css">
+               <graphic>
+                  <ImageView fitHeight="33.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../refreshLOGO.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Line endX="750.0" layoutX="193.0" layoutY="635.0" startX="-185.99998474121094" />
+            <Button fx:id="order" layoutX="309.0" layoutY="651.0" mnemonicParsing="false" onAction="#btnOrder" prefHeight="27.0" prefWidth="333.0" styleClass="button2" stylesheets="@application.css" text="Make Order for selected row company" />
+
+			</children>
+		</AnchorPane>
+   </bottom>
+</BorderPane>

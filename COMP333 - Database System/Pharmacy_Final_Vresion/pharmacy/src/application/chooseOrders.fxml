@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="369.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.chooseOrderController">
+   <center>
+      <AnchorPane prefHeight="457.0" prefWidth="372.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="105.0" fitWidth="106.0" layoutX="129.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../order.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnback" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" prefHeight="40.0" prefWidth="57.0" styleClass="button2" stylesheets="@application.css">
+               <graphic>
+                  <ImageView fitHeight="39.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons8-back-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="allOrders" contentDisplay="RIGHT" layoutX="94.0" layoutY="238.0" mnemonicParsing="false" onAction="#allOrders" prefHeight="57.0" prefWidth="184.0" styleClass="button2" stylesheets="@application.css" text="           All Orders" />
+            <Button fx:id="newOrder" contentDisplay="RIGHT" layoutX="90.0" layoutY="368.0" mnemonicParsing="false" onAction="#newOrder" prefHeight="57.0" prefWidth="184.0" styleClass="button2" stylesheets="@application.css" text="             Make Order" />
+            <Line endX="186.39999389648438" layoutX="184.0" layoutY="332.0" startX="-191.00001525878906" />
+            <ImageView fitHeight="55.0" fitWidth="57.0" layoutX="101.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../received.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="55.0" layoutX="94.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons8-add-48.png" />
+               </image>
+            </ImageView>
+            <Text fill="#1a40ff" layoutX="149.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Orders">
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

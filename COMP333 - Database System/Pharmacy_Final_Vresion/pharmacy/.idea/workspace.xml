@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31789a5a-640b-4e32-a1d8-2c0f8945a730" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/Employeedata.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/Employeedata.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/Sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/Sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/SampleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/SampleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/Scene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/Scene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/SceneController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/SceneController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/Start.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/Start.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/StartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/categores.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/categores.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/item.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/item.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/itemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/itemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/provide_company.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/provide_company.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/provide_companyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/provide_companyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Employeedata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Employeedata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/SampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Scene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Scene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/SceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/SceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Start.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Start.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/StartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/categores.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/categores.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/item.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/item.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/itemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/itemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/provide_company.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/provide_company.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/provide_companyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/provide_companyController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="23QroSholafCp70Daz19KNJk5Hv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitHub/COMP333_Project_Pharmacy/pharmacy" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31789a5a-640b-4e32-a1d8-2c0f8945a730" name="Default Changelist" comment="" />
+      <created>1641677339647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641677339647</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

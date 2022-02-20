@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="618.0" prefWidth="795.0" styleClass="back" stylesheets="@application.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+ fx:controller="application.SceneController">
+   <center>
+      <AnchorPane prefHeight="195.0" prefWidth="434.0" stylesheets="@application.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" layoutX="127.0" layoutY="229.0" prefHeight="49.0" prefWidth="210.0" style="-fx-border-width: 0px0px2px0px; -fx-background-color: #ffffff; -fx-border-color: #177bd1;" text="   Users Login" textFill="#177bd1">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="45.0" fitWidth="43.0" layoutX="135.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../login.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="82.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../padlock.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="31.0" layoutX="84.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../user.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="UserName" layoutX="126.0" layoutY="309.0" prefHeight="29.0" prefWidth="197.0" promptText="Username">
+               <font>
+                  <Font name="Bell MT Bold" size="15.0" />
+               </font></TextField>
+            <Button fx:id="btnLogin" layoutX="228.0" layoutY="408.0" mnemonicParsing="false" onAction="#btnClick" prefHeight="39.0" prefWidth="95.0" styleClass="button2" stylesheets="@application.css" text="Login" />
+            <PasswordField fx:id="PassWord" layoutX="125.0" layoutY="356.0" prefHeight="29.0" prefWidth="198.0" promptText="Password" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="781.0" prefWidth="951.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.orderesController">
+   <center>
+      <AnchorPane prefHeight="681.0" prefWidth="951.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="TableData" layoutX="34.0" layoutY="117.0" prefHeight="375.0" prefWidth="883.0">
+              <columns>
+                <TableColumn fx:id="counter" prefWidth="27.999969482421875" text="#" />
+                <TableColumn fx:id="itemParcode" prefWidth="111.19999694824219" text="Item Parcode" />
+                  <TableColumn fx:id="itemName" prefWidth="171.20001220703125" text="Item Name" />
+                  <TableColumn fx:id="itemCategory" prefWidth="157.60003662109375" text="Category" />
+                  <TableColumn fx:id="itemQuantity" prefWidth="71.199951171875" text="Quantity" />
+                  <TableColumn fx:id="itemPrice" prefWidth="96.800048828125" text="Price" />
+                  <TableColumn fx:id="expDate" prefWidth="146.39990234375" text="Expiration Date" />
+                  <TableColumn fx:id="itembyEmployee" prefWidth="96.0001220703125" text="by Employee" />
+              </columns>
+            </TableView>
+            <Button fx:id="btnback" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" onAction="#back" prefHeight="40.0" prefWidth="57.0" styleClass="button2" stylesheets="@application.css">
+               <graphic>
+                  <ImageView fitHeight="39.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons8-back-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="print" alignment="BOTTOM_CENTER" layoutX="836.0" layoutY="677.0" mnemonicParsing="false" onAction="#print" prefHeight="84.0" prefWidth="78.0" styleClass="button2" stylesheets="@application.css" text="Print" />
+            <Button fx:id="addItem" contentDisplay="RIGHT" layoutX="705.0" layoutY="503.0" mnemonicParsing="false" onAction="#addNew" prefHeight="40.0" prefWidth="134.0" styleClass="button2" stylesheets="@application.css" text="        Add Item" />
+            <ImageView fitHeight="27.0" fitWidth="69.0" layoutX="718.0" layoutY="507.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../add-to-cart.png" />
+               </image>
+            </ImageView>
+            <Line endX="467.0" layoutX="465.0" layoutY="581.0" startX="-464.20001220703125" />
+            <ToggleButton fx:id="insuranceOrder" layoutX="338.0" layoutY="596.0" mnemonicParsing="false" onAction="#insuranceOrder" prefHeight="46.0" prefWidth="106.0" styleClass="toggle-button1" stylesheets="@application.css" text="insurance">
+               <toggleGroup>
+                  <ToggleGroup fx:id="payMethod" />
+               </toggleGroup></ToggleButton>
+            <ToggleButton fx:id="cashOrder" layoutX="444.0" layoutY="596.0" mnemonicParsing="false" onAction="#cashOrder" prefHeight="46.0" prefWidth="106.0" selected="true" styleClass="toggle-button2" stylesheets="@application.css" text="Cash" toggleGroup="$payMethod" />
+            <Label fx:id="orderID" alignment="CENTER" layoutX="85.0" layoutY="63.0" prefHeight="26.0" prefWidth="139.0" style="-fx-border-radius: 50; -fx-border-color: blue;" text="Order ID" />
+            <Label fx:id="price" alignment="CENTER" layoutX="28.0" layoutY="724.0" prefHeight="41.0" prefWidth="171.0" style="-fx-border-radius: 50; -fx-border-color: blue;" text="Price $" />
+            <Label fx:id="discount" alignment="CENTER" layoutX="28.0" layoutY="671.0" prefHeight="41.0" prefWidth="171.0" style="-fx-border-radius: 50; -fx-border-color: blue;" text="Discount" />
+            <Label fx:id="priceBefore" alignment="CENTER" layoutX="28.0" layoutY="614.0" prefHeight="41.0" prefWidth="171.0" style="-fx-border-radius: 50; -fx-border-color: blue;" text="Price Before" />
+            <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="28.0" layoutY="724.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../dollar-symbol.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgPr" fitHeight="41.0" fitWidth="41.0" layoutX="28.0" layoutY="614.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../dollar-symbol.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgDis" fitHeight="44.0" fitWidth="56.0" layoutX="29.0" layoutY="670.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons8-discount-50.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="addinsurance" contentDisplay="RIGHT" layoutX="395.0" layoutY="687.0" mnemonicParsing="false" onAction="#addinsurance" prefHeight="40.0" prefWidth="134.0" styleClass="button2" stylesheets="@application.css" text="add insurance" />
+            <ImageView fx:id="imgInsh" fitHeight="56.0" fitWidth="51.0" layoutX="343.0" layoutY="679.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../healthcare.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="search" layoutX="747.0" layoutY="21.0" prefHeight="27.0" prefWidth="183.0" promptText="search" style="-fx-background-color: white; -fx-border-color: blue; -fx-border-radius: 20; -fx-background-radius: 20;" />
+            <ImageView fitHeight="17.0" fitWidth="16.0" layoutX="906.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../RestaurantMgtSampleUI-master/src/images/icons8_Search_52px.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="deleteItem" contentDisplay="RIGHT" layoutX="161.0" layoutY="503.0" mnemonicParsing="false" onAction="#deleteItem" prefHeight="40.0" prefWidth="214.0" styleClass="button2" stylesheets="@application.css" text="      Delete selected Rows " />
+            <ImageView fitHeight="29.0" fitWidth="30.0" layoutX="170.0" layoutY="506.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../delete.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="cancelOrdre" contentDisplay="RIGHT" layoutX="765.0" layoutY="594.0" mnemonicParsing="false" onAction="#CancelOrder" prefHeight="40.0" prefWidth="152.0" styleClass="button2" stylesheets="@application.css" text="      Cancel Order" />
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="765.0" layoutY="594.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons8-cancel-48.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="851.0" layoutY="680.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../printing.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="132.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Order ID" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

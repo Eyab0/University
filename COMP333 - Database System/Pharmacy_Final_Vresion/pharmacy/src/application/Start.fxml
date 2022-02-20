@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="649.0" prefWidth="901.0" style="-fx-background-color: gray;" styleClass="photo" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StartController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="900.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <GridPane hgap="7.0" layoutX="31.0" layoutY="171.0" prefHeight="462.0" prefWidth="845.0" vgap="7.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Button fx:id="btnCat" alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#Cat" prefHeight="110.0" prefWidth="291.0" stylesheets="@application.css" text="Categories" textFill="#4a4fda" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                     <graphic>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="44.0" prefWidth="45.0" style="-fx-background-color: #ffffff;">
+                           <graphic>
+                              <ImageView fitHeight="53.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../icons8-medicines-64.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnLogOut" alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#LogOut" prefHeight="130.0" prefWidth="283.0" stylesheets="@application.css" text="Logout" textFill="#4a4fda" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                     <graphic>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="44.0" prefWidth="45.0" style="-fx-background-color: #ffffff;">
+                           <graphic>
+                              <ImageView fitHeight="53.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../logout.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnEmp" alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#Emp" prefHeight="130.0" prefWidth="294.0" stylesheets="@application.css" text="Employees" textFill="#4a4fda" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                     <graphic>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="44.0" prefWidth="45.0" style="-fx-background-color: #ffffff;">
+                           <graphic>
+                              <ImageView fitHeight="63.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../icons8-pharmacy-62.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnItem" alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#Item" prefHeight="110.0" prefWidth="292.0" stylesheets="@application.css" text="Items" textFill="#4a4fda" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                     <graphic>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="44.0" prefWidth="45.0" style="-fx-background-color: #ffffff;">
+                           <graphic>
+                              <ImageView fitHeight="47.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../medicine.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnOrder" alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#Order" prefHeight="110.0" prefWidth="296.0" stylesheets="@application.css" text="Orders" textFill="#4a4fda">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                     <graphic>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="44.0" prefWidth="45.0" style="-fx-background-color: #ffffff;">
+                           <graphic>
+                              <ImageView fitHeight="49.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../online-pharmacy.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnInsh" alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#Insh" prefHeight="130.0" prefWidth="294.0" stylesheets="@application.css" text="Inshorunce" textFill="#4a4fda" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                     <graphic>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="44.0" prefWidth="45.0" style="-fx-background-color: #ffffff;">
+                           <graphic>
+                              <ImageView fitHeight="53.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../health-insurance.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnProv" alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#Prov" prefHeight="130.0" prefWidth="294.0" stylesheets="@application.css" text="Provide Company" textFill="#4a4fda" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                     <graphic>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="44.0" prefWidth="45.0" style="-fx-background-color: #ffffff;">
+                           <graphic>
+                              <ImageView fitHeight="54.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../cargo.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                     </graphic>
+                  </Button>
+               </children>
+            </GridPane>
+            <Pane prefHeight="155.0" prefWidth="900.0" style="-fx-background-color: #1cffbf;">
+               <children>
+                  <Label layoutX="29.0" layoutY="19.0" style="-fx-background-color: #ffffff; -fx-background-radius: 40;">
+                     <graphic>
+                        <ImageView fitHeight="128.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../caduceus.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label layoutX="214.0" layoutY="35.0" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT" size="52.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="214.0" layoutY="48.0" text="High Care Pharmacy" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="65.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

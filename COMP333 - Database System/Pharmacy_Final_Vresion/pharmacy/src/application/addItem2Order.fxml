@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.addItem2OrderController">
+   <center>
+      <AnchorPane prefHeight="450.0" prefWidth="471.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="91.0" fitWidth="91.0" layoutX="152.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons8-cart-64.png" />
+               </image>
+            </ImageView>
+            <ToggleButton fx:id="byItemName" layoutX="201.0" layoutY="170.0" mnemonicParsing="false" onAction="#byItemName" prefHeight="46.0" prefWidth="106.0" styleClass="toggle-button2" stylesheets="@application.css" text="Item Name">
+               <toggleGroup>
+                  <ToggleGroup fx:id="cartTgl" />
+               </toggleGroup></ToggleButton>
+            <ToggleButton fx:id="byParcode" layoutX="95.0" layoutY="170.0" mnemonicParsing="false" onAction="#byParcode" prefHeight="46.0" prefWidth="106.0" selected="true" styleClass="toggle-button1" stylesheets="@application.css" text="ParCode" toggleGroup="$cartTgl" />
+            <Button fx:id="addToCart" contentDisplay="RIGHT" layoutX="237.0" layoutY="527.0" mnemonicParsing="false" onAction="#addToCart" prefHeight="40.0" prefWidth="134.0" styleClass="button2" stylesheets="@application.css" text="        Add Item" />
+            <ImageView fitHeight="33.0" fitWidth="34.0" layoutX="240.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../check.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="cancelItem" contentDisplay="RIGHT" layoutX="27.0" layoutY="527.0" mnemonicParsing="false" onAction="#cancelItem" prefHeight="40.0" prefWidth="152.0" styleClass="button2" stylesheets="@application.css" text="      Cancel Item" />
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="27.0" layoutY="527.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons8-cancel-48.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="95.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons8-how-many-quest-48.png" />
+               </image>
+            </ImageView>
+            <Spinner fx:id="item_quant" editable="true" layoutX="143.0" layoutY="355.0" prefHeight="36.0" prefWidth="176.0" />
+            <Text layoutX="88.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity" wrappingWidth="49.538330078125">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <HBox fx:id="itemName" alignment="CENTER" layoutX="67.0" layoutY="247.0" prefHeight="52.0" prefWidth="282.0">
+               <children>
+                  <ImageView fitHeight="45.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons8-drug-64.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="Item_name" prefHeight="36.0" prefWidth="176.0" promptText="Item Name" />
+               </children>
+            </HBox>
+            <HBox fx:id="parcode" alignment="CENTER" layoutX="67.0" layoutY="299.0" prefHeight="52.0" prefWidth="282.0" spacing="7.0">
+               <children>
+                  <ImageView fitHeight="40.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../barcode-product.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="item_parcode" prefHeight="36.0" prefWidth="176.0" promptText="Item ParCode" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
