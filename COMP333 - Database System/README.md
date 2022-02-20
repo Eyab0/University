@@ -17,12 +17,15 @@
 
 ***
 
-# Group number: 11
+## Group number: 11
 
 ## Student’s names and IDs:
 
-* Eyab Ghifari          | 1190999
-* Mohamad Alwan    | 1181192
-* Islam Jihad           | 1191375
-* Ibrahim Asfour      | 1190985
+* Eyab Ghifari   - 1190999  &emsp; (@Eyab0) 
+* Mohamad Alwan  - 1181192  &emsp; (@MohamadAlwan)
+* Islam Jihad    - 1191375  &emsp; (@islamjihad)
+* Ibrahim Asfour - 1190985  &emsp; (@Ibrahim-Asfour)
  
+***
+## Special thanks
+* For Dr.Diaeddin Rimawi on his great efforts during this course!.
