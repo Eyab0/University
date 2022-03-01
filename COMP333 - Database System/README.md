@@ -12,8 +12,10 @@
  *  Provide Company 
  
  ![]( https://github.com/MohamadAlwan/COMP333_Project_Pharmacy/blob/main/Pharmacy_Final_Vresion/pharmacy/first.png)
- 
- 
+ ![]( https://github.com/Eyab0/University/blob/main/COMP333%20-%20Database%20System/Pharmacy_Final_Vresion/pharmacy/1.png)
+ ![]( https://github.com/Eyab0/University/blob/main/COMP333%20-%20Database%20System/Pharmacy_Final_Vresion/pharmacy/2.png)
+ ![]( https://github.com/Eyab0/University/blob/main/COMP333%20-%20Database%20System/Pharmacy_Final_Vresion/pharmacy/3.png)
+
 
 ***
 
