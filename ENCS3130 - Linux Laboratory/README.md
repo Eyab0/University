@@ -12,4 +12,8 @@ Fundamental concepts about UNIX and Linux. File system, Process Control, System 
 ## ENCS3130 Projects
 * Shell-Script 
 * Python 
+
+## Partners 
+* Kareem Afaneh
+* Qutaiba Olayyan 
  
