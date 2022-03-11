@@ -16,4 +16,7 @@ Fundamental concepts about UNIX and Linux. File system, Process Control, System 
 ## Partners 
 * Kareem Afaneh
 * Qutaiba Olayyan 
+
+## My Score 😎 
+![My Score](Score.png)
  
