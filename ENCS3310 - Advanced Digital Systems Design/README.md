@@ -1,16 +1,16 @@
 
-<h1 align="center">Operating System (ENCS3390)</h1>
+<h1 align="center">Advanced Digital Systems Design (ENCS3310 )</h1>
 
 ***
   
 # Course Description
-The role of an Operating System in computer operations, memory management and virtual memory, process management, multiprogramming and multiprocessor systems, interrupt processing, input/output management and spooling, information management and security, introduction to distributed and networked operating systems, a comparative study of selected operating systems.
+Advanced features of a Hardware Description Language (HDL). CAD tools; logic synthesis and optimization, timing simulation, design flow, and examples from HDL code. Digital systems design; building block circuits, case studies from the building blocks of ALU and control unit. Asynchronous sequential circuits, race conditions and hazards. Testing logic circuits.
 
 
 
+***
 
-
-## ENCS3390 Course Project
-* Virtual Memory Management Simulation
+## ENCS3310 Course Project
+* 8-Bit Comparator for Signed Number
 
  
