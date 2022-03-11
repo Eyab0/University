@@ -1,0 +1,101 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=project
+
+[Library]
+project=.\project\project.lib
+
+[$LibMap$]
+project=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+fileopenfolder=C:\Users\Eyab\Desktop\BZU\3rd year - 1st semester\ENCS331 - ADV Digital\Active HDL\project_1190999\project\src\rtl
+
+[IMPLEMENTATION]
+UCF=
+
+[SpecTracer]
+WindowVisible=0
+
+[Folders]
+Name0=Event Lists
+Directory0=c:\Users\Eyab\Desktop\BZU\3rd year - 1st semester\ENCS331 - ADV Digital\Active HDL\project_1190999\project\
+Extension0=lst
+Name1=Logs
+Directory1=c:\Users\Eyab\Desktop\BZU\3rd year - 1st semester\ENCS331 - ADV Digital\Active HDL\project_1190999\project\
+Extension1=log;htm;xml;txt
+Name2=Waveforms
+Directory2=c:\Users\Eyab\Desktop\BZU\3rd year - 1st semester\ENCS331 - ADV Digital\Active HDL\project_1190999\project\
+Extension2=asdb;awc;asdbc;asdbe
+Name3=Makefiles
+Directory3=c:\Users\Eyab\Desktop\BZU\3rd year - 1st semester\ENCS331 - ADV Digital\Active HDL\project_1190999\project\
+Extension3=mak
+Name4=Memory
+Directory4=c:\Users\Eyab\Desktop\BZU\3rd year - 1st semester\ENCS331 - ADV Digital\Active HDL\project_1190999\project\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=c:\Users\Eyab\Desktop\BZU\3rd year - 1st semester\ENCS331 - ADV Digital\Active HDL\project_1190999\project\
+Extension5=dll
+Name6=PDF
+Directory6=c:\Users\Eyab\Desktop\BZU\3rd year - 1st semester\ENCS331 - ADV Digital\Active HDL\project_1190999\project\
+Extension6=pdf
+Name7=HTML
+Directory7=c:\Users\Eyab\Desktop\BZU\3rd year - 1st semester\ENCS331 - ADV Digital\Active HDL\project_1190999\project\
+Extension7=htm;html
+
+[HierarchyViewer]
+HierarchyInformation=and2_gate|and2_circuit|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/tb_comparator.vhd=-1
+/2_complement.vhd=-1
+/and.vhd=-1
+/and_generic.vhd=-1
+/cla_adder.vhd=-1
+/gate_package.vhd=-1
+/inverter.vhd=-1
+/magnitude_comparator_4bit.vhd=-1
+/nand.vhd=-1
+/nor.vhd=-1
+/or.vhd=-1
+/or_generic.vhd=-1
+/partial_full_adder.vhd=-1
+/stage1_comp.vhd=-1
+/stage2_comp.vhd=-1
+/xnor.vhd=-1
+/xor.vhd=-1
+
+[Files.Data]
+.\src\tb_comparator.vhd=VHDL Source Code
+.\src\2_complement.vhd=VHDL Source Code
+.\src\and.vhd=VHDL Source Code
+.\src\and_generic.vhd=VHDL Source Code
+.\src\cla_adder.vhd=VHDL Source Code
+.\src\gate_package.vhd=VHDL Source Code
+.\src\inverter.vhd=VHDL Source Code
+.\src\magnitude_comparator_4bit.vhd=VHDL Source Code
+.\src\nand.vhd=VHDL Source Code
+.\src\nor.vhd=VHDL Source Code
+.\src\or.vhd=VHDL Source Code
+.\src\or_generic.vhd=VHDL Source Code
+.\src\partial_full_adder.vhd=VHDL Source Code
+.\src\stage1_comp.vhd=VHDL Source Code
+.\src\stage2_comp.vhd=VHDL Source Code
+.\src\xnor.vhd=VHDL Source Code
+.\src\xor.vhd=VHDL Source Code
+

@@ -1,0 +1,15 @@
+[Version]
+Version=11.1
+c:\Users\Eyab\Desktop\BZU\3rd year - 1st semester\ENCS331 - ADV Digital\Active HDL\project_1190999\project_1190999.aws
+[Designs]
+project=.\project\project.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+project=1
+[Settings]
+Active=project

@@ -1,0 +1,198 @@
+acom -O3 -e 100 -work project -2002  $dsn/src/tb_comparator.vhd $dsn/src/2_complement.vhd $dsn/src/and.vhd $dsn/src/and_generic.vhd $dsn/src/cla_adder.vhd $dsn/src/gate_package.vhd $dsn/src/inverter.vhd $dsn/src/magnitude_comparator_4bit.vhd $dsn/src/nand.vhd $dsn/src/nor.vhd $dsn/src/or.vhd $dsn/src/or_generic.vhd $dsn/src/partial_full_adder.vhd $dsn/src/stage1_comp.vhd $dsn/src/stage2_comp.vhd $dsn/src/xnor.vhd $dsn/src/xor.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/tb_comparator.vhd
+# Compile Entity "tb_comparator"
+# Compile Architecture "behavior" of Entity "tb_comparator"
+# Error: COMP96_0078: tb_comparator.vhd : (25, 21): Unknown identifier "stage_2_comp".
+# Error: COMP96_0055: tb_comparator.vhd : (25, 16): Cannot find context item "work.stage_2_comp".
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/2_complement.vhd
+# Compile Entity "twos_complement"
+# Error: COMP96_0055: 2_complement.vhd : (3, 10): Cannot find context item "work.gate_package".
+# Compile Architecture "arch" of Entity "twos_complement"
+# Error: COMP96_0056: 2_complement.vhd : (14, 1): Cannot find referenced entity declaration "twos_complement".
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/and.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "arch" of Entity "and_gate"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/and_generic.vhd
+# Compile Entity "and_generic"
+# Error: COMP96_0055: and_generic.vhd : (3, 10): Cannot find context item "work.gate_package".
+# Compile Architecture "arch" of Entity "and_generic"
+# Error: COMP96_0056: and_generic.vhd : (25, 1): Cannot find referenced entity declaration "and_generic".
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/cla_adder.vhd
+# Compile Entity "carry_look_ahead"
+# Error: COMP96_0055: cla_adder.vhd : (3, 10): Cannot find context item "work.gate_package".
+# Compile Architecture "arch" of Entity "carry_look_ahead"
+# Error: COMP96_0056: cla_adder.vhd : (16, 1): Cannot find referenced entity declaration "carry_look_ahead".
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/gate_package.vhd
+# Compile Package "gate_package"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/inverter.vhd
+# Compile Entity "inverter"
+# Compile Architecture "arch" of Entity "inverter"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/magnitude_comparator_4bit.vhd
+# Compile Entity "magnitude_comparator_4bit"
+# Compile Architecture "arch" of Entity "magnitude_comparator_4bit"
+# Warning: ELAB1_0026: magnitude_comparator_4bit.vhd : (43, 0): There is no default binding for component "xnor_gate". (No entity named "xnor_gate" was found).
+# Warning: ELAB1_0026: magnitude_comparator_4bit.vhd : (71, 0): There is no default binding for component "or_gate". (No entity named "or_gate" was found).
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/nand.vhd
+# Compile Entity "nand_gate"
+# Compile Architecture "arch" of Entity "nand_gate"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/nor.vhd
+# Compile Entity "nor_gate"
+# Compile Architecture "arch" of Entity "nor_gate"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/or.vhd
+# Compile Entity "or_gate"
+# Compile Architecture "arch" of Entity "or_gate"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/or_generic.vhd
+# Compile Entity "or_generic"
+# Compile Architecture "arch" of Entity "or_generic"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/partial_full_adder.vhd
+# Compile Entity "partial_full_adder"
+# Compile Architecture "arch" of Entity "partial_full_adder"
+# Warning: ELAB1_0026: partial_full_adder.vhd : (26, 0): There is no default binding for component "xor_gate". (No entity named "xor_gate" was found).
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/stage1_comp.vhd
+# Compile Entity "stage_1_comp"
+# Compile Architecture "arch" of Entity "stage_1_comp"
+# Warning: ELAB1_0026: stage1_comp.vhd : (38, 0): There is no default binding for component "carry_look_ahead". (No entity named "carry_look_ahead" was found).
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/stage2_comp.vhd
+# Compile Entity "stage_2_comp"
+# Compile Architecture "arch" of Entity "stage_2_comp"
+# Warning: ELAB1_0026: stage2_comp.vhd : (94, 0): There is no default binding for component "twos_complement". (No entity named "twos_complement" was found).
+# Warning: ELAB1_0026: stage2_comp.vhd : (116, 0): There is no default binding for component "AND_GENERIC". (No entity named "AND_GENERIC" was found).
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/xnor.vhd
+# Compile Entity "xnor_gate"
+# Compile Architecture "arch" of Entity "xnor_gate"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/xor.vhd
+# Compile Entity "xor_gate"
+# Compile Architecture "arch" of Entity "xor_gate"
+# Compile failure 8 Errors 6 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work project -2002  $dsn/src/tb_comparator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/tb_comparator.vhd
+# Compile Entity "tb_comparator"
+# Compile Architecture "behavior" of Entity "tb_comparator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work project -2002  $dsn/src/tb_comparator.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/tb_comparator.vhd
+# Compile Entity "tb_comparator"
+# Compile Architecture "behavior" of Entity "tb_comparator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work project -2002  $dsn/src/2_complement.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/2_complement.vhd
+# Compile Entity "twos_complement"
+# Compile Architecture "arch" of Entity "twos_complement"
+# Error: COMP96_0078: 2_complement.vhd : (22, 23): Unknown identifier "carry_look_ahead".
+# Error: COMP96_0055: 2_complement.vhd : (22, 18): Cannot find context item "work.carry_look_ahead".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work project -2002  $dsn/src/2_complement.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/2_complement.vhd
+# Compile Entity "twos_complement"
+# Compile Architecture "arch" of Entity "twos_complement"
+# Error: COMP96_0078: 2_complement.vhd : (22, 23): Unknown identifier "carry_look_ahead".
+# Error: COMP96_0055: 2_complement.vhd : (22, 18): Cannot find context item "work.carry_look_ahead".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work project -2002  $dsn/src/and_generic.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/and_generic.vhd
+# Compile Entity "and_generic"
+# Compile Architecture "arch" of Entity "and_generic"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work project -2002  $dsn/src/2_complement.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/2_complement.vhd
+# Compile Entity "twos_complement"
+# Compile Architecture "arch" of Entity "twos_complement"
+# Error: COMP96_0078: 2_complement.vhd : (22, 23): Unknown identifier "carry_look_ahead".
+# Error: COMP96_0055: 2_complement.vhd : (22, 18): Cannot find context item "work.carry_look_ahead".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work project -2002  $dsn/src/cla_adder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/cla_adder.vhd
+# Compile Entity "carry_look_ahead"
+# Compile Architecture "arch" of Entity "carry_look_ahead"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work project -2002  $dsn/src/tb_comparator.vhd $dsn/src/2_complement.vhd $dsn/src/and.vhd $dsn/src/and_generic.vhd $dsn/src/cla_adder.vhd $dsn/src/gate_package.vhd $dsn/src/inverter.vhd $dsn/src/magnitude_comparator_4bit.vhd $dsn/src/nand.vhd $dsn/src/nor.vhd $dsn/src/or.vhd $dsn/src/or_generic.vhd $dsn/src/partial_full_adder.vhd $dsn/src/stage1_comp.vhd $dsn/src/stage2_comp.vhd $dsn/src/xnor.vhd $dsn/src/xor.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/tb_comparator.vhd
+# Compile Entity "tb_comparator"
+# Compile Architecture "behavior" of Entity "tb_comparator"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/2_complement.vhd
+# Compile Entity "twos_complement"
+# Compile Architecture "arch" of Entity "twos_complement"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/and.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "arch" of Entity "and_gate"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/and_generic.vhd
+# Compile Entity "and_generic"
+# Compile Architecture "arch" of Entity "and_generic"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/cla_adder.vhd
+# Compile Entity "carry_look_ahead"
+# Compile Architecture "arch" of Entity "carry_look_ahead"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/gate_package.vhd
+# Compile Package "gate_package"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/inverter.vhd
+# Compile Entity "inverter"
+# Compile Architecture "arch" of Entity "inverter"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/magnitude_comparator_4bit.vhd
+# Compile Entity "magnitude_comparator_4bit"
+# Compile Architecture "arch" of Entity "magnitude_comparator_4bit"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/nand.vhd
+# Compile Entity "nand_gate"
+# Compile Architecture "arch" of Entity "nand_gate"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/nor.vhd
+# Compile Entity "nor_gate"
+# Compile Architecture "arch" of Entity "nor_gate"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/or.vhd
+# Compile Entity "or_gate"
+# Compile Architecture "arch" of Entity "or_gate"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/or_generic.vhd
+# Compile Entity "or_generic"
+# Compile Architecture "arch" of Entity "or_generic"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/partial_full_adder.vhd
+# Compile Entity "partial_full_adder"
+# Compile Architecture "arch" of Entity "partial_full_adder"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/stage1_comp.vhd
+# Compile Entity "stage_1_comp"
+# Compile Architecture "arch" of Entity "stage_1_comp"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/stage2_comp.vhd
+# Compile Entity "stage_2_comp"
+# Compile Architecture "arch" of Entity "stage_2_comp"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/xnor.vhd
+# Compile Entity "xnor_gate"
+# Compile Architecture "arch" of Entity "xnor_gate"
+# File: C:/Users/Eyab/Desktop/BZU/3rd year - 1st semester/ENCS331 - ADV Digital/Active HDL/project_1190999/project/src/xor.vhd
+# Compile Entity "xor_gate"
+# Compile Architecture "arch" of Entity "xor_gate"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+and2_gate and2_gate and2_circuit
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6044 kB (elbread=1280 elab2=4626 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Eyab\Desktop\BZU\3rd year - 1st semester\ENCS331 - ADV Digital\Active HDL\project_1190999\project\src\wave.asdb
+#  10:49 PM, Saturday, December 25, 2021
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.

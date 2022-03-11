@@ -1,0 +1,17 @@
+.\src\tb_comparator.vhd
+.\src\2_complement.vhd
+.\src\and.vhd
+.\src\and_generic.vhd
+.\src\cla_adder.vhd
+.\src\gate_package.vhd
+.\src\inverter.vhd
+.\src\magnitude_comparator_4bit.vhd
+.\src\nand.vhd
+.\src\nor.vhd
+.\src\or.vhd
+.\src\or_generic.vhd
+.\src\partial_full_adder.vhd
+.\src\stage1_comp.vhd
+.\src\stage2_comp.vhd
+.\src\xnor.vhd
+.\src\xor.vhd

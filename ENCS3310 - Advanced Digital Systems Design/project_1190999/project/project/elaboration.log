@@ -1,0 +1,33 @@
+Active-HDL 11.1.262.7351 2021-12-25 22:49:41
+
+Elaboration top modules:
+Architecture                  and2_circuit(and2_gate)
+
+
+------------------------------------------------------------------------------------------
+Entity    | Architecture | Library | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------
+and2_gate | and2_circuit | project |      | 11.1.262.7351 (Windows) | -O3
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+VHDL Package             | Library | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------
+standard                 | std     |      |                         | <unavailable>
+TEXTIO                   | std     |      |                         | <unavailable>
+std_logic_1164           | ieee    |      |                         | <unavailable>
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+Library                  | Comment
+------------------------------------------------------------------------------------------
+ieee                     | Standard IEEE packages library
+project                  | None
+std                      | Standard VHDL library
+------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+and2_gate and2_gate and2_circuit
+
+
+The performance of simulation is reduced. Version Student Edition
