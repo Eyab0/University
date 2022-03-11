@@ -12,4 +12,5 @@
   * [ENCS3130 | Linux Laboratory](https://github.com/Eyab0/University/tree/main/ENCS3130%20-%20Linux%20Laboratory) 
   * [ENCS3390 | Operating System](https://github.com/Eyab0/University/tree/main/ENCS3390%20-%20Operating%20System) 
   * [ENEE2312 | Signals and Systems](https://github.com/Eyab0/University/tree/main/ENEE2312%20-%20Signals%20and%20Systems) 
+  * [ENCS3310 | Advanced Digital Systems Design](https://github.com/Eyab0/University/tree/main/ENCS3310%20-%20Advanced%20Digital%20Systems%20Design) 
 
