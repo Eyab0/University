@@ -16,3 +16,7 @@ Data type and structures, abstract data types and encapsulation, recursion, proo
 
 ## My Score 😎 
 ![My Score](https://github.com/Eyab0/University/blob/main/COMP2421%20-%20Data%20Structure%20%26%20Algorithms/Score.png)
+
+***
+## Special thanks
+* For Dr.Ahmed Abusnaina on his great efforts during this course!.

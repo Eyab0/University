@@ -3,7 +3,7 @@
 ![](bzu.png)
   - Repository For My University Projects & Assignments 
   - @Birzeit University  
-## Subjects :
+## Courses :
   * [COMP133 | Computer & Programming](https://github.com/Eyab0/University/tree/main/COMP133%20-%20Computer%20%26%20Programming)
   * [COMP231 | Object-Oriented Programming](https://github.com/Eyab0/University/tree/main/COMP231%20-%20Object-Oriented%20Programming) 
   * [COMP2421 | Data Structure & Algorithms](https://github.com/Eyab0/University/tree/main/COMP2421%20-%20Data%20Structure%20%26%20Algorithms) 
