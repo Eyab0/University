@@ -16,4 +16,4 @@
   * [ENEE3309 | Communications Systems](https://github.com/Eyab0/University/tree/main/ENEE3309%20-%20Communications%20Systems) 
   * [ENCS3320 | Computer Networks](https://github.com/Eyab0/University/tree/main/ENCS3320%20-%20Computer%20Networks) 
   * [ENCS3340 | Artificial Intelligence](https://github.com/Eyab0/University/tree/main/ENCS3340%20-%20Artificial%20Intelligence) 
-
+  * [ENCS4310 | Digital Signal Processing (DSP)](https://github.com/Eyab0/University/tree/main/ENCS4310%20-%20Digital%20Signal%20Processing%20(DSP)) 
