@@ -14,8 +14,8 @@ Fundamental concepts about UNIX and Linux. File system, Process Control, System 
 * Python 
 
 ## Partners 
-* Qutaiba Olayyan 
-* Kareem Afaneh
+* [Qutaiba Olayyan](https://github.com/SwAt1563)
+* [Kareem Afaneh](https://github.com/KareemAfaneh)
 
 
 ## My Score 😎 
