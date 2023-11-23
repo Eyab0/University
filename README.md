@@ -18,6 +18,5 @@
   * [ENCS3340 | Artificial Intelligence](https://github.com/Eyab0/University/tree/main/ENCS3340%20-%20Artificial%20Intelligence) 
   * [ENCS4310 | Digital Signal Processing (DSP)](https://github.com/Eyab0/University/tree/main/ENCS4310%20-%20Digital%20Signal%20Processing%20(DSP))
   * [ENCS4330 | Real-time Applications and Embedded Systems] ()
-  * [ENCS4380 | Interfacing Techniques] ()
   * [ENCS5342 | Information Retrieval with Applications of NLP] ()
   * [ENCS5150 | Advanced Computer Systems Engineering Laboratory] ()
