@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_notes">
+        <item
+            android:id="@+id/nav_all"
+            android:title="All" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:title="Favorites" />
+        <item
+            android:id="@+id/nav_sorted"
+            android:title="Sorted" />
+
+
+        <item
+            android:id="@+id/nav_categorization"
+            android:title="Categorization" />
+
+
+    </group>
+
+    <group android:id="@+id/group_profile">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile" />
+    </group>
+
+    <group android:id="@+id/group_logout">
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+    </group>
+
+
+</menu>
