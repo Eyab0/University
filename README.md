@@ -20,3 +20,8 @@
   * [ENCS4330 | Real-time Applications and Embedded Systems](https://github.com/Eyab0/University/tree/main/ENCS4330%20-%20Real-time%20Applications%20and%20Embedded%20Systems)
   * [ENCS5342 | Information Retrieval with Applications of NLP](https://github.com/Eyab0/University/tree/main/ENCS5342%20-%20Information%20Retrieval%20with%20Applications%20of%20NLP)
   * [ENCS5150 | Advanced Computer Systems Engineering Laboratory](https://github.com/Eyab0/University/tree/main/ENCS5150%20-%20Advanced%20Computer%20Systems%20Engineering%20Laboratory/AndriodProject)
+
+
+
+
+ <H1 align="center" > <strong> Feel free to ⭐️ this repository if you find it helpful! </strong> </H1>
